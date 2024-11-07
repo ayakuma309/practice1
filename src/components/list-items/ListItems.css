@@ -1,0 +1,26 @@
+.list-items {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  overflow-x: scroll;
+}
+
+.list-items > .item {
+  width: 200px;
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
+
+.list-items > .item.selected {
+  background-color: #f2f2f2;
+}
+
+.list-items > .item > svg {
+  width: 100px;
+  height: 100px;
+}
